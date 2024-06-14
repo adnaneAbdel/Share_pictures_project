@@ -1,0 +1,109 @@
+.boxing{
+    box-shadow: 0 0 2px;
+    background: #000046;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .Login,.Register{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    position: relative;
+    width: 100px;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: transparent;
+    transition: 0.4s;
+  }
+  .Login{
+   background-color: #1CB5E0;
+  }
+  .Register{
+    background-color: #000046;
+    color: #fff;
+   }
+   .Login:hover{
+    background-color: #12128ef8;
+    color: #fff;
+   }
+   .Register:hover{
+    
+     background-color: #3939baf8;
+    
+    }
+  .firstLogo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    position: relative;
+    top: 0px;
+  }
+ 
+  #myName{
+    font-size: larger;
+          font-family: system-ui;
+          text-transform: capitalize;
+          font-weight: bold;
+          position: relative;
+          margin: 10px;
+          top: 3px;
+          font-size: 30px;
+          -webkit-text-fill-color: transparent;
+          -webkit-text-stroke: 1px #000046;
+  }
+  /* //small screen for phone  */
+  @media (max-width: 575px) {
+      #cardShopingForMobile{
+      
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        color: black;
+      }
+      .number{
+        font-weight: bold;
+        position: relative;
+        top: -8px;
+        left: -15px;
+        color: red;
+      }
+  }
+  
+  @media (max-width:375px) {
+    .number{
+      font-weight: bold;
+      position: relative;
+      top: -8px;
+      left: -15px;
+      color: red;
+    }
+  
+  }
+  @media (max-width: 412px) {
+    .number{
+      font-weight: bold;
+      position: relative;
+      top: -8px;
+      left: -22px;
+      color: red;
+    }
+  
+  }
+  /* //large screen for desktop */
+  @media (min-width:1200px){
+  
+    .btnListIcons,#cardShopingForMobile,.number{
+      display: none;
+  }
+  .number1{
+    font-weight: bold;
+    position: relative;
+    top: -8px;
+    left: -10px;
+    color: red;
+  }
+  } 

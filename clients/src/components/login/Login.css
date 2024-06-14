@@ -1,0 +1,22 @@
+
+.center{
+    text-align: center;
+}
+
+@media (max-width: 576px){
+ 
+}
+
+@media (min-width: 1200px){
+    .auth{
+        width: 600px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 3px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        top: 30px;
+    }
+    
+}

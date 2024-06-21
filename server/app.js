@@ -25,5 +25,5 @@ app.use(margan('dev'))
 //use URL from Router
 app.use('/api/auth', router)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-mongoose.connect('mongodb+srv://adnwebdeveloper24:ONLYyou01@sharepictures.d39m9co.mongodb.net/?retryWrites=true&w=majority&appName=SharePictures');
+mongoose.connect('mongodb://localhost:27017/Share-pictures');
 app.listen(port , () => console.log(`the server run in ${port}`))

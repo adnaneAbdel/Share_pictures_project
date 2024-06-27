@@ -1,0 +1,143 @@
+.h1Title,.titlePar{
+    color: #0f0c29;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px black;
+    margin-top: 50px;
+}
+.titlePar{
+    -webkit-text-fill-color:#0f0c29 ;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+}
+.introduction2{
+    line-height: 2.2;
+    text-transform: capitalize;
+   
+    color: #0f0c29;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.taill,.taill2{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+.taill2{
+    float: right;
+    position: relative;
+    top: -190px;
+
+}
+.getStarted{
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    position: relative;
+
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: transparent;
+    transition: 0.4s;
+  }
+  .getStarted{
+    background-color: #000046;
+    color: #fff;
+   }
+  .getStarted:hover{
+    
+    background-color: #3939baf8;
+   
+   }
+
+.reduis{
+    border-radius: 15px;
+    position: relative;
+    animation: up-and-down 5s linear infinite;
+    margin-top: 30px;
+}
+
+
+@media (max-width: 576px){
+    .introduction{
+        line-height: 2.2;
+        text-transform: capitalize;
+      
+        color: #0f0c29;
+    }
+    .reduis{
+        border-radius: 15px;
+        position: relative;
+        animation: up-and-down 5s linear infinite;
+        margin-top: 30px;
+    }
+    .container{
+        position: relative;
+        top: 50px;
+    }
+    @keyframes  up-and-down{
+        0%, 100% {
+            top: 0;
+        }
+        50% {
+            top: 50px;
+        }
+    }
+    .height{
+        height: 230px;
+    }
+    #carouselExampleCaptions{
+        position: relative;
+        top: 130px;
+        
+    }
+    .text{
+        position: relative;
+        top: 28px;
+    }
+
+}
+
+@media (min-width: 1200px){
+    .introduction{
+        line-height: 2.2;
+        text-transform: capitalize;
+        width: 435px;
+        color: #0f0c29;
+    }
+    .container{
+        position: relative;
+        top: 100px;
+    }
+    @keyframes  up-and-down{
+        0%, 100% {
+            top: 0;
+        }
+        50% {
+            top: -50px;
+        }
+    }
+    .height{
+        height: 530px;
+    }
+    #carouselExampleCaptions{
+      display: none;
+        
+    }
+}
+
+/* start style slider  */
+  
+ 
+/* end style slider  */

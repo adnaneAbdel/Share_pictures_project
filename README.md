@@ -14,7 +14,7 @@ MongoDB (or another database if specified in the project)
 npm install
 # Set Up Environment Variables:
 Create a .env file in the root directory and add the required environment variables. Here is an example of what your .env file might look like:
-   PORT=3000
-   MONGODB_URI=mongodb://localhost:27017/your-database
-   JWT_SECRET=your_secret_key
+   PORT=3000<br>
+   MONGODB_URI=mongodb://localhost:27017/your-database<br>
+   JWT_SECRET=your_secret_key<br>
 

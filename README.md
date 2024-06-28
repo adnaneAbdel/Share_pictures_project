@@ -6,9 +6,9 @@ This project is a web application that allows users to create accounts and post 
 # Prerequisites:
 Before running this project, make sure you have the following installed:
 
-Node.js (v14.0.0 or later)
-npm or yarn
-Git
+Node.js (v14.0.0 or later)<br>
+npm or yarn<br>
+Git<br>
 MongoDB (or another database if specified in the project)
 # Install Dependencies for each folder:
 npm install
